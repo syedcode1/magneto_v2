@@ -628,7 +628,7 @@ $VerbosePreference = "Continue"
    - https://attack.mitre.org/
 
 2. **Exabeam UEBA Documentation**
-   - Consult vendor-specific documentation
+   - https://docs.exabeam.com/
 
 3. **Windows Security Auditing**
    - https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/
