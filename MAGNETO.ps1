@@ -123,7 +123,7 @@ param (
 # Script Version Info
 $scriptVersion = "1.3"  # Updated version for tactic features
 $scriptDate = "September 16, 2025"
-$updateCheckUrl = "https://example.com/magneto/version.txt"  # Replace with actual URL
+$updateCheckUrl = "https://github.com/syedcode1/magneto_v2/blob/main/MAGNETO.ps1"  # Replace with actual URL
 
 # Check for help using various common formats
 if ($Help -or $PSBoundParameters.ContainsKey('?') -or 
@@ -1482,4 +1482,5 @@ Start-Sleep -Seconds 1
 notepad.exe $logFile
 
 Write-Host "Simulation Complete. Check Exabeam Threat Center - Alerts for Anomalies Triggered." -ForegroundColor Green
+
 Write-Host "Exfil Complete. Ghost Out." -ForegroundColor Red
